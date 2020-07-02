@@ -1,0 +1,107 @@
+@import "./variables.scss";
+@import "./mixins.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  main {
+    background-image: $gradient;
+    height: 100vh;
+    width: 100%;
+    header {
+      a {
+        font-size: 3em;
+        padding-left: 10px;
+        padding-top: 10px;
+        text-decoration: none;
+      }
+    }
+    section:first-of-type {
+      text-align: center;
+      color: white;
+      @include flex(flex, column, center);
+      padding-top: 10vh;
+      div:nth-of-type(1) {
+        padding-top: 15vh;
+        padding-bottom: 25vh;
+        h1 {
+          font-size: 10em;
+          font-weight: 500;
+          letter-spacing: 3px;
+          font-family: "Notable", sans-serif;
+        }
+        h2 {
+          font-size: 3em;
+          letter-spacing: 3px;
+          font-family: "Notable", sans-serif;
+        }
+      }
+      div:nth-of-type(2) {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -4vh;
+        margin-right: 10%;
+        a {
+          color: black;
+          text-decoration: none;
+          font-size: 1.5em;
+          padding-left: 1%;
+        }
+      }
+    }
+  }
+  #about,
+  #services {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    img {
+      width: 90%;
+    }
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      line-height: 2;
+      h1 {
+        font-size: 3em;
+      }
+      p {
+        font-size: 1.2em;
+        padding-bottom: 4vh;
+      }
+      a {
+        text-decoration: none;
+        background: $gradient;
+        border: 3px solid $red;
+        border-radius: 5px;
+        padding: 5px 10px;
+        color: black;
+        font-weight: 500;
+        font-size: 1.3em;
+        text-transform: uppercase;
+      }
+    }
+  }
+  footer {
+    margin-top: 5vh;
+    height: 5vh;
+    background: $gradient;
+    p {
+      color: black;
+      font-size: 1.2em;
+      text-align: center;
+      letter-spacing: 3px;
+      padding-top: 1vh;
+      font-weight: 500;
+    }
+  }
+}

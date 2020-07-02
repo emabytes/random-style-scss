@@ -1,0 +1,22 @@
+$blue: #03f2ea;
+$red: #ff6647;
+$yellow: #eaf516;
+$purple: #9654e8;
+$gradient: linear-gradient(
+  45deg,
+  $blue 12.5%,
+  $yellow 12.5%,
+  $yellow 25%,
+  $purple 25%,
+  $purple 37.5%,
+  $red 37.5%,
+  $red 50%,
+  $blue 50%,
+  $blue 62.5%,
+  $yellow 62.5%,
+  $yellow 75%,
+  $purple 75%,
+  $purple 87.5%,
+  $red 87.5%,
+  $red 100%
+);

@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+body main {
+  background-image: linear-gradient(45deg, #03f2ea 12.5%, #eaf516 12.5%, #eaf516 25%, #9654e8 25%, #9654e8 37.5%, #ff6647 37.5%, #ff6647 50%, #03f2ea 50%, #03f2ea 62.5%, #eaf516 62.5%, #eaf516 75%, #9654e8 75%, #9654e8 87.5%, #ff6647 87.5%, #ff6647 100%);
+  height: 100vh;
+  width: 100%;
+}
+body main header a {
+  font-size: 3em;
+  padding-left: 10px;
+  padding-top: 10px;
+  text-decoration: none;
+}
+body main section:first-of-type {
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 10vh;
+}
+body main section:first-of-type div:nth-of-type(1) {
+  padding-top: 15vh;
+  padding-bottom: 25vh;
+}
+body main section:first-of-type div:nth-of-type(1) h1 {
+  font-size: 10em;
+  font-weight: 500;
+  letter-spacing: 3px;
+  font-family: "Notable", sans-serif;
+}
+body main section:first-of-type div:nth-of-type(1) h2 {
+  font-size: 3em;
+  letter-spacing: 3px;
+  font-family: "Notable", sans-serif;
+}
+body main section:first-of-type div:nth-of-type(2) {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -4vh;
+  margin-right: 10%;
+}
+body main section:first-of-type div:nth-of-type(2) a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5em;
+  padding-left: 1%;
+}
+body #about,
+body #services {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+body #about img,
+body #services img {
+  width: 90%;
+}
+body #about div,
+body #services div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 2;
+}
+body #about div h1,
+body #services div h1 {
+  font-size: 3em;
+}
+body #about div p,
+body #services div p {
+  font-size: 1.2em;
+  padding-bottom: 4vh;
+}
+body #about div a,
+body #services div a {
+  text-decoration: none;
+  background: linear-gradient(45deg, #03f2ea 12.5%, #eaf516 12.5%, #eaf516 25%, #9654e8 25%, #9654e8 37.5%, #ff6647 37.5%, #ff6647 50%, #03f2ea 50%, #03f2ea 62.5%, #eaf516 62.5%, #eaf516 75%, #9654e8 75%, #9654e8 87.5%, #ff6647 87.5%, #ff6647 100%);
+  border: 3px solid #ff6647;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: black;
+  font-weight: 500;
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+body footer {
+  margin-top: 5vh;
+  height: 5vh;
+  background: linear-gradient(45deg, #03f2ea 12.5%, #eaf516 12.5%, #eaf516 25%, #9654e8 25%, #9654e8 37.5%, #ff6647 37.5%, #ff6647 50%, #03f2ea 50%, #03f2ea 62.5%, #eaf516 62.5%, #eaf516 75%, #9654e8 75%, #9654e8 87.5%, #ff6647 87.5%, #ff6647 100%);
+}
+body footer p {
+  color: black;
+  font-size: 1.2em;
+  text-align: center;
+  letter-spacing: 3px;
+  padding-top: 1vh;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=style.css.map */
