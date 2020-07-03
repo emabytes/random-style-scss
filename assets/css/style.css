@@ -16,6 +16,7 @@ body main header a {
   padding-left: 10px;
   padding-top: 10px;
   text-decoration: none;
+  color: black;
 }
 body main section:first-of-type {
   text-align: center;
